@@ -1,0 +1,32 @@
+{
+	"name": "todo",
+	"displayName": "todo",
+	"description": "Todo",
+	"version": "0.0.1",
+	"publisher": "julienduranleau",
+	"icon": "images/todo.png",
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:plaintext"
+	],
+	"main": "./out/extension",
+	"contributes": {},
+	"scripts": {},
+	"devDependencies": {
+		"vscode": "^1.1.6",
+		"@types/node": "^7.0.43"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JulienDuranleau/todo-vsc.git"
+	},
+	"dependencies": {
+		"path": "^0.12.7"
+	},
+	"license": "MIT"
+}
